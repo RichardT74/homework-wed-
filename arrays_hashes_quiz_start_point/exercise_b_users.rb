@@ -54,23 +54,64 @@ users = {
   }
 }
 
-p users["Jonathan"][:twitter]
-p users["Erik"][:home_town]
-p users["Erik"][:lottery_numbers]
-p users["Avril"][:pets][0] [:species]
-p users["Erik"][:lottery_numbers].min
-lottery_numbers = users["Avril"][:lottery_numbers]
-for number in lottery_numbers
-  if number % 2 == 0
-    p number
-  end
-end
-p users["Erik"][:lottery_numbers].push(7)
-p users["Erik"][:home_town] = "Edinburgh"
-#p users["Erik"]
 
-p users["Erik"][:pets].push [{:name => "Fluffy", :species => "Dog"}]
-p users["Erik"]
+
+
+# users.merge({"Richard"})
+
+# p users
+
+
+# p users["Jonathan"][:twitter]
+# p users["Erik"][:home_town]
+# p users["Erik"][:lottery_numbers]
+# p users["Avril"][:pets][0] [:species]
+# p users["Erik"][:lottery_numbers].min
+# lottery_numbers = users["Avril"][:lottery_numbers]
+# for number in lottery_numbers
+#   if number % 2 == 0
+#     p number
+#   end
+
+
+  # lottery_num =[]
+  # for num in users['Avril'][:lottery_numbers]
+  #   if num % 2 == 0
+  #     lottery_num.push(num)
+  #   end
+
+# result = []
+#     for number in users["Avril"][:lottery_numbers]
+#       result <<  number if(number.even?)
+#       end
+#       p result
+
+   # end
+# p users["Erik"][:lottery_numbers].push(7)
+# p users["Erik"][:home_town] = "Edinburgh"
+# users["Erik"][:home_town].replace("Edinburgh")
+# # #p users["Erik"]
+#
+# p users["Erik"][:pets].push [{:name => "Fluffy", :species => "Dog"}]
+#  p dog = {
+# :name => "fluffy",
+# :species => "dog"
+# }
+
+me = { 
+
+
+}
+
+users["Juan"] = me
+
+
+p users
+
+
+#
+# users["Erik"][:pets] << dog
+# # p users["Erik"]
 
 
 # "Avril" => {
@@ -83,11 +124,14 @@ p users["Erik"]
 #       :species => "snake"
 #     }
 #   ]
+#
+#
 # }
 
 
 
-p users.push[{:name =>"Richard"}]
+# users.push({:name =>"Richard"})
+
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
 # 2. Get Erik's hometown

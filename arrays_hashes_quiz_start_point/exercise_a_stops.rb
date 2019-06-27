@@ -13,6 +13,9 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # p stops[6]
 # p stops.length
 # p stops[2]
+# stops.at(2)
+# stops.at(-5)
+
 # p stops.reverse!
 for single in stops
   p single
